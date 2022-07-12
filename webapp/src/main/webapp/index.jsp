@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
 <body>
-todays test
-<h1 style="background-color:Tomato;">Tomato</h1>
-<h1 style="background-color:Orange;">Orange</h1>
-<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
-<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
-<h1 style="background-color:Gray;">Gray</h1>
-<h1 style="background-color:SlateBlue;">SlateBlue</h1>
-<h1 style="background-color:Violet;">Violet</h1>
-<h1 style="background-color:LightGray;">LightGray</h1>
+
+<h2>Text input fields</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of text input fields is 20 characters.</p>
 
 </body>
 </html>
+
